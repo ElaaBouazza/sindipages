@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.10
 
       - name: Copy Repository Contents
         uses: actions/checkout@v2
@@ -65,7 +65,50 @@ jobs:
           # prepare the pr message
           pr = pr_msg_path.read_text().replace('{_username_}', username).replace('{_repo_name_}', repo_name)
           pr_msg_path.write_text(pr)
-        shell: python
+        shell: 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
       - name: commit changes
         run: |
