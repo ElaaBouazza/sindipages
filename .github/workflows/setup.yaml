@@ -65,50 +65,7 @@ jobs:
           # prepare the pr message
           pr = pr_msg_path.read_text().replace('{_username_}', username).replace('{_repo_name_}', repo_name)
           pr_msg_path.write_text(pr)
-        shell: 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        shell: python
 
       - name: commit changes
         run: |
